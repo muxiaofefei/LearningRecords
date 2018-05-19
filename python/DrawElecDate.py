@@ -35,8 +35,10 @@ def drawDate(date):
 			turtle.fd(40)
 		elif i == '=':
 			turtle.write("月",font=("Arial",18,"normal"))
+			turtle.fd(40)
 		elif i == "+":
-			turtle.write("日",font=("Arial",18,"normal"))			
+			turtle.write("日",font=("Arial",18,"normal"))
+			turtle.fd(40)
 		else:
 			drawDigit(eval(i))
 		
